@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "welbex"
+version = "0.1.0"
+description = ""
+authors = ["Alexandr Kositskiy <koso-96@mail.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+django = "^5.0.3"
+python-dotenv = "^1.0.1"
+dj-database-url = "^2.1.0"
+psycopg2-binary = "^2.9.9"
+gunicorn = "^21.2.0"
+django-bootstrap5 = "^23.4"
+
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "^7.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

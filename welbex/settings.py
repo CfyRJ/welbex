@@ -52,6 +52,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'welbex',
     'welbex.location',
+    'welbex.parcels',
 ]
 
 MIDDLEWARE = [

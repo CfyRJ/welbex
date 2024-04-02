@@ -1,7 +1,7 @@
 from django.db import models
 
 
-class locations(models.Model):
+class Locations(models.Model):
     zip = models.IntegerField(unique=True)
     lat = models.FloatField()
     lng = models.FloatField()

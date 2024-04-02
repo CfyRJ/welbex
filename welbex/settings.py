@@ -53,6 +53,7 @@ INSTALLED_APPS = [
     'welbex',
     'welbex.location',
     'welbex.parcels',
+    'welbex.cars',
 ]
 
 MIDDLEWARE = [
